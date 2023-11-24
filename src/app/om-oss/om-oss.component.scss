@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: space-around;   
+    padding-top:32px;
+
+}
+.company{
+    width:40%;
+    height:100%;
+}
+
+.workers{
+
+    width:40%;
+    height:100%;
+    text-align: center;
+}
+.worker{
+    margin-top:16px;
+    margin-bottom:64px;
+}
+
+.vertical-line {
+    width: 2px;
+    background-color: #333; /* Adjust the color as needed */
+    height: 700px; /* Adjust the height as needed */
+}
