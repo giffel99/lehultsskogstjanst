@@ -1,13 +1,19 @@
-.container{
-    padding:26px;
+.container {
+  padding-top: 16px;
+  margin: 0 16px 16px 16px;
 }
-.services{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-    gap: 10px; /* Adjust the gap between items as needed */
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  gap: 10px; /* Adjust the gap between items as needed */
 }
-.service{
-    padding: 20px;
-    border: 1px solid #ddd;
-    text-align: center;
+.service {
+  padding: 20px;
+  text-align: center;
+}
+
+.horizontal-line {
+  height: 2px;
+  background-color: #333; /* Adjust the color as needed */
+  width: 100%; /* Adjust the height as needed */
 }

@@ -1,9 +1,22 @@
-.container{
-    padding-top: 16px;
-    margin: 0 16px 16px 16px;
+.container {
+  padding-top: 16px;
+  margin: 0 16px 16px 16px;
 }
+
 .horizontal-line {
-    height: 2px;
-    background-color: #333; /* Adjust the color as needed */
-    width:100%; /* Adjust the height as needed */
+  height: 2px;
+  background-color: #333; /* Adjust the color as needed */
+  width: 100%; /* Adjust the height as needed */
+}
+
+.contact-info p {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.label {
+  font-weight: bold;
+  margin-left: 10px;
 }

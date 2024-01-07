@@ -9,13 +9,12 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class HeaderComponent {
   constructor(private router: Router, private route: ActivatedRoute) {}
 
-  headerItems = ["Hem","Om oss","Tjänster","Våra maskiner","Tidigare projekt","Kontakt"]
+  headerItems = ["Hem","Om oss","Tjänster","Tidigare projekt","Kontakt"]
  
   routeRecord:Record<string,string> = {
     "Hem":"",
     "Om oss":"om-oss",
     "Tjänster":"tjanster",
-    "Våra maskiner":"vara-maskiner",
     "Tidigare projekt":"tidigare-projekt",
     "Kontakt":"kontakt",
   }

@@ -11,6 +11,7 @@ import { VaraMaskinerComponent } from './vara-maskiner/vara-maskiner.component';
 import { HemComponent } from './hem/hem.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { AppRoutingModule } from './app-routing.module';
     VaraMaskinerComponent,
     TidigareProjektComponent,
     KontaktComponent,
-    HemComponent
+    HemComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

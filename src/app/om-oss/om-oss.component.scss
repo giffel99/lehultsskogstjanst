@@ -1,27 +1,31 @@
-.container{
-    display: flex;
-    justify-content: space-around;   
-    padding-top:32px;
-
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 16px;
+  margin: 0 16px 16px 16px;
 }
-.company{
-    width:40%;
-    height:100%;
+.company {
+  width: 50%;
+  height: 100%;
 }
 
-.workers{
-
-    width:40%;
-    height:100%;
-    text-align: center;
+.images {
+  width: 50%;
+  height: 100%;
+  text-align: center;
 }
-.worker{
-    margin-top:16px;
-    margin-bottom:64px;
+.image {
+  margin-top: 16px;
+  margin-bottom: 64px;
 }
 
 .vertical-line {
-    width: 2px;
-    background-color: #333; /* Adjust the color as needed */
-    height: 700px; /* Adjust the height as needed */
+  width: 2px;
+  background-color: #333; /* Adjust the color as needed */
+  height: 700px; /* Adjust the height as needed */
+}
+.horizontal-line {
+  height: 2px;
+  background-color: #333; /* Adjust the color as needed */
+  width: calc(100% - 16px); /* Adjust the height as needed */
 }
