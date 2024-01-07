@@ -1,0 +1,17 @@
+.footer {
+  flex-shrink: 0; /* Prevent the footer from shrinking */
+  padding: 8px 0px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.contact-info {
+  display: flex;
+  flex-direction: row; /* Change from column to row */
+  justify-content: center; /* Center the content horizontally */
+}
+
+.contact-info span {
+  margin: 0 10px; /* Add margin for spacing between spans */
+}
