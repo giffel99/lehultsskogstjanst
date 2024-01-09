@@ -1,18 +1,24 @@
-
-
-.text-card{
-width: calc(100% - 90px);;
-box-sizing: border-box;
-margin:auto;
-
-padding:32px;
+.text-card {
+  width: calc(100% - 90px);
+  box-sizing: border-box;
+  margin: auto;
+  padding: 32px;
 }
 
-.image-card{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 16px;
-    max-width: 100%;
-    height: auto;
+.image-card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text-card {
+    width: calc(100% - 42px);
+    box-sizing: border-box;
+    padding: 4px;
+    margin: auto;
+    text-align: center;
+  }
 }

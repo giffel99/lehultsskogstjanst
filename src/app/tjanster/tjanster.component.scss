@@ -6,6 +6,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
   gap: 10px; /* Adjust the gap between items as needed */
+  margin: auto;
+  justify-content: center;
 }
 .service {
   padding: 20px;
@@ -16,4 +18,10 @@
   height: 2px;
   background-color: #333; /* Adjust the color as needed */
   width: 100%; /* Adjust the height as needed */
+}
+
+@media only screen and (max-width: 1024px) {
+  .services {
+    grid-template-columns: 1fr; /* Set a single column layout for smaller screens */
+  }
 }

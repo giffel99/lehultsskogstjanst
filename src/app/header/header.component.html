@@ -1,5 +1,9 @@
 <div class="header">
-  <div *ngFor="let item of headerItems"  class="header-item" (click)="reroute(item)">
-    <p>{{item}}</p>
+  <div
+    *ngFor="let item of headerItems"
+    class="header-item small-text"
+    (click)="reroute(item)"
+  >
+    <p>{{ item }}</p>
   </div>
 </div>

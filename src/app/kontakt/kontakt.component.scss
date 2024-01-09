@@ -10,7 +10,7 @@
 }
 
 .contact-info p {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -19,4 +19,18 @@
 .label {
   font-weight: bold;
   margin-left: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-info p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .label {
+    font-weight: bold;
+    margin-left: 0px;
+  }
 }
