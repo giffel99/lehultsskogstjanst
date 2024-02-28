@@ -1,27 +1,53 @@
 .container {
+  display: flex;
+  justify-content: space-around;
   padding-top: 16px;
   margin: 0 16px 16px 16px;
 }
-.services {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-  gap: 10px; /* Adjust the gap between items as needed */
-  margin: auto;
-  justify-content: center;
+.company {
+  width: 50%;
+  height: 100%;
 }
-.service {
-  padding: 20px;
+ul {
+  list-style-type: none;
+}
+.images {
+  width: 20%;
+  height: 100%;
   text-align: center;
+  margin-bottom: 32px;
+}
+.image {
+  margin-top: 16px;
 }
 
-.horizontal-line {
-  height: 2px;
-  background-color: #333; /* Adjust the color as needed */
-  width: 100%; /* Adjust the height as needed */
+.image-scale {
+  width: 400px;
 }
 
+/* Media query for screens with a maximum width of 640 pixels (typical for mobile devices) */
 @media only screen and (max-width: 1024px) {
-  .services {
-    grid-template-columns: 1fr; /* Set a single column layout for smaller screens */
+  .container {
+    flex-direction: column; /* Change the flex direction to column for stacking on smaller screens */
+  }
+  .vertical-line {
+    display: none;
+  }
+  .company {
+    width: 100%;
+  }
+  .images {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .horisontal-line {
+    width: 100%;
+    margin-top: 8px;
+    background-color: #333; /* Adjust the color as needed */
+    height: 2px; /* Adjust the height as needed */
+    display: block !important;
+  }
+  .image-scale {
+    width: 90%;
   }
 }

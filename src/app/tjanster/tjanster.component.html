@@ -1,88 +1,36 @@
 <div class="container">
-  <p class="small-text">Våra tjänster</p>
+  <div class="company">
+    <p class="small-text">Våra tjänster</p>
 
-  <div class="horizontal-line"></div>
-  <div class="services">
-    <div class="services">
-      <figure class="service">
-        <img
-          src="./assets/300x300/image7.jpeg"
-          width="300"
-          height="300"
-          alt="Vatten och Avlopp"
-        />
-        <figcaption>Vatten och Avlopp</figcaption>
-      </figure>
+    <br />
+    <ul>
+      <li class="very-small-text" *ngFor="let service of services">
+        {{ service }}
+      </li>
+    </ul>
+  </div>
 
-      <figure class="service">
-        <img
-          src="./assets/300x300/image5.jpeg"
-          width="300"
-          height="300"
-          alt="Dammar"
-        />
-        <figcaption>Dammar</figcaption>
-      </figure>
+  <div class="vertical-line"></div>
 
-      <figure class="service">
+  <div class="images">
+    <div class="image">
+      <figure>
         <img
-          src="./assets/300x300/image7.jpeg"
-          width="300"
-          height="300"
-          alt="Dikning"
+          class="image-scale"
+          src="./assets/image8.jpeg"
+          alt="Placeholder Image"
         />
-        <figcaption>Dikning</figcaption>
       </figure>
-
-      <figure class="service">
-        <img
-          src="./assets/300x300/image7s.jpeg"
-          width="300"
-          height="300"
-          alt="Skogsvägar"
-        />
-        <figcaption>Skogsvägar</figcaption>
-      </figure>
-
-      <figure class="service">
-        <img
-          src="./assets/300x300/image6.jpeg"
-          width="300"
-          height="300"
-          alt="Tomtplantering"
-        />
-        <figcaption>Tomtplantering</figcaption>
-      </figure>
-
-      <figure class="service">
-        <img
-          src="./assets/300x300/image1.jpeg"
-          width="300"
-          height="300"
-          alt="Trädgårdsmurar"
-        />
-        <figcaption>Trädgårdsmurar</figcaption>
-      </figure>
-
-      <figure class="service">
-        <img
-          src="./assets/300x300/image0.jpeg"
-          width="300"
-          height="300"
-          alt="Husgrunder"
-        />
-        <figcaption>Husgrunder</figcaption>
-      </figure>
-
-      <figure class="service">
-        <img
-          src="./assets/300x300/image6s.jpeg"
-          width="300"
-          height="300"
-          alt="Dränering"
-        />
-        <figcaption>Dränering</figcaption>
-      </figure>
+      <div class="image">
+        <figure>
+          <img
+            class="image-scale"
+            src="./assets/image4.jpeg"
+            alt="Placeholder Image"
+          />
+        </figure>
+      </div>
     </div>
   </div>
+  <div class="images"></div>
 </div>
