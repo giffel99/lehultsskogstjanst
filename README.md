@@ -29,9 +29,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Todo list
 
 - Lägg in rätt kontaktinformation
-- Fler bilder:
-  -- skogsvägar
-  -- dränering
-- Tidigare projekt:
-  -- Lägg in bilder
-  -- Lägg in text
+- Gör om tjänster till en lista istället
+- Gör om tidigare projekt till ett bildspel
+

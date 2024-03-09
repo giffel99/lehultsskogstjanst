@@ -15,5 +15,6 @@ export class TjansterComponent {
     'Trädgårdsmurar',
     'Husgrunder',
     'Dränering',
+    'm.m.',
   ];
 }
